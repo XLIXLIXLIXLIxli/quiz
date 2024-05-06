@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #404040;
+  background-image: url(D:\quiz\src\images\background.svg);
+  background-size: 190vw;
+  background-attachment: fixed;
+
+  list-style: "none";
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #575555 transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #575555;
+  outline: 1px solid #404040;
+}
+
+body::-moz-scrollbar {
+  width: 0.5em;
+}
+
+body::-moz-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-moz-scrollbar-thumb {
+  background-color: #575555;
+  outline: 1px solid #404040;
+}

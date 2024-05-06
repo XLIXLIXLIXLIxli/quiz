@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header {
+  justify-content: center;
+  align-items: center;
+
+  height: 70px;
+  width: 800px;
+}
+
+.login {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.uploadImage {
+  width: 58px;
+  height: 58px;
+  padding-left: 4px;
+
+  object-fit: cover;
+}
+
+.Link:link,
+.Link:visited {
+  text-decoration: none;
+}
+
+.Link:hover,
+.Link:active {
+  text-decoration: none;
+}
+
+.rating {
+  z-index: 1;
+}
+
+.modal {
+  justify-content: center;
+  align-items: column;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 8px;
+}
